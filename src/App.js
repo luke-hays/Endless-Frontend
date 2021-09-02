@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import GetStarted from './components/GetStarted'
 import HowItWorks from './components/HowItWorks'
 import stepsService from './services/steps'
+import getLatestSteps from './utilities/stepcomparer'
 
 const App = () => {
     const [steps, setSteps] = useState([])
@@ -9,7 +10,8 @@ const App = () => {
     useEffect(() => {
         const fetchSteps = async () => {
             const allSteps = await stepsService.getAll()
-            setSteps(allSteps)
+            const latestSteps = getLatestSteps(allSteps)
+            setSteps(latestSteps)
         }
         fetchSteps()
     }, [])

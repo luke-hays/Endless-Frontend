@@ -3,6 +3,8 @@ import '@testing-library/jest-dom/extend-expect'
 import { render } from '@testing-library/react'
 import HowItWorks from '../components/HowItWorks'
 
+//There should be a test here if there are two matching stepnumbers
+
 test('<HowItWorks /> is constructed from given steps', () => {
     const fakeStep = {
         'id': 'd11b10ba-1cd8-48f8-93eb-454b716fd5a0',

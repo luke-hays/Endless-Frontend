@@ -9,7 +9,13 @@ const HowItWorks = ({ steps }) => {
         <div>
             <h3>How It Works</h3>
             <div>
-
+                {steps.map(step => {
+                    return (<div key={step.stepNumber}>
+                        <h1>{step.stepNumber}</h1>
+                        <h4>{step.title}</h4>
+                        <p>{step.body}</p>
+                    </div>)
+                })}
             </div>
         </div>
     )
