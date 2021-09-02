@@ -1,9 +1,9 @@
 import React from 'react'
+import '@testing-library/jest-dom/extend-expect'
 import { render } from '@testing-library/react'
 import HowItWorks from '../components/HowItWorks'
 
 test('<HowItWorks /> is constructed from given steps', () => {
-
     const fakeStep = {
         'id': 'd11b10ba-1cd8-48f8-93eb-454b716fd5a0',
         'stepNumber': '2',
@@ -25,7 +25,7 @@ test('<HowItWorks /> is constructed from given steps', () => {
         <HowItWorks steps={fakeStep} />
     )
 
-    //We want to return only the objec with most recent effectiveDate
+    //We want to return only the object with most recent effectiveDate
     expect(component.container).toHaveTextContent(
         'Request A Delivery'
     )
