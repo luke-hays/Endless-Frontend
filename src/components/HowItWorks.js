@@ -1,8 +1,17 @@
 import React from 'react'
 
-const HowItWorks = () => {
+const HowItWorks = ({ steps }) => {
+    if (steps.length !== 1) {
+        console.log(steps)
+    }
+
     return (
-        <div></div>
+        <div>
+            <h3>How It Works</h3>
+            <div>
+
+            </div>
+        </div>
     )
 }
 
