@@ -5,7 +5,7 @@ Currently hosting in an Amazon S3 bucket for convenience.
 
 URL: http://endlessfrontend.s3-website.us-east-2.amazonaws.com/
 
-Project can be run locally via npm start
+Project can be run locally via npm start, use npm install to install project dependencies
 
 ## Structure
 Project was bootstrapped using create-react-app. Some of the left over stuff from that is in the public folder. I've slightly modified index.html and manifest.
