@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import GetStarted from './components/GetStarted'
 import HowItWorks from './components/HowItWorks'
+import Header from './components/Header'
 import stepsService from './services/steps'
 import getLatestSteps from './utilities/stepcomparer'
 
@@ -18,6 +19,7 @@ const App = () => {
 
     return (
         <div>
+            <Header />
             <GetStarted />
             <HowItWorks steps={steps}/>
         </div>

@@ -1,0 +1,41 @@
+#getStartedMain {
+    background-image: url("../assets/img/photo-couch.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.getStartedContent {
+    color:white;
+
+    font-family: "Lato";
+    font-weight: lighter;
+
+    padding-top: 10%
+}
+
+.getStartedContent h3 {
+    font-weight: 200;
+    font-size: 90%;
+    padding-top: 10px;
+}
+
+.getStartedContent h2 {
+    font-weight: 100;
+    font-size: xx-large;
+    margin-top: 0;
+}
+
+#btnGetStarted {
+    background-color: #47e4c2;
+    color: #2f3237;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 0;
+    padding: 5px 20px;
+}

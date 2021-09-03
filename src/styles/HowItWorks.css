@@ -1,0 +1,35 @@
+#howItWorksMain {
+    background: #f2f1ef;
+    padding-bottom: 3em;
+}
+
+.howItWorksContent {
+    color: #2f3237;
+    font-family: "Lato";
+}
+
+.howItWorksContent h2 {
+    color: #2f3237;
+    font-family: "Lato";
+
+    margin: 0 auto;
+    width: fit-content;
+    font-size: xx-large;
+    font-weight: lighter;
+    padding: 25px;
+}
+
+.stepsRow .stepContainer {
+    display: inline-block;
+}
+
+.stepContainer {
+    width: 25%;
+    text-align: center;
+}
+
+.stepContainer h1 {
+    font-size: xxx-large;
+    text-decoration: underline #47e4c2;
+    margin: 0;
+}
