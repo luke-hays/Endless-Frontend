@@ -1,10 +1,11 @@
 .header {
     background-color: #222222;
     color: #47e4c2;
+    width: 100vw;
 }
 
 img {
-    height: 10%;
-    width: 10%;
-    padding-top: 10px;
+    padding: 5px 0;
+    height: 4vh;
+    width: 25vh;
 }

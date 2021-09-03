@@ -11,9 +11,7 @@ const HowItWorks = ({ steps }) => {
                         {steps.map(step => {
                             return (<div className='stepContainer' key={step.stepNumber}>
                                 <div className='stepContent'>
-                                    <h1 className='stepHeader'>
-                                        {step.stepNumber.toString().padStart(2, '0')}
-                                    </h1>
+                                    <h1>{step.stepNumber.toString().padStart(2, '0')}</h1>
                                     <h4>{step.title}</h4>
                                     <p>{step.body}</p>
                                 </div>

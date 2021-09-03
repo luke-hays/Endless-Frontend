@@ -1,6 +1,7 @@
 #howItWorksMain {
     background: #f2f1ef;
     padding-bottom: 3em;
+    width: 100vw;
 }
 
 .howItWorksContent {
@@ -14,7 +15,7 @@
 
     margin: 0 auto;
     width: fit-content;
-    font-size: xx-large;
+    font-size: 4vh;
     font-weight: lighter;
     padding: 25px;
 }
@@ -23,13 +24,88 @@
     display: inline-block;
 }
 
+.stepsRow {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .stepContainer {
-    width: 25%;
+    width: 20%;
     text-align: center;
 }
 
 .stepContainer h1 {
-    font-size: xxx-large;
+    font-size: 6vh;
     text-decoration: underline #47e4c2;
     margin: 0;
+}
+
+.stepContainer h4 {
+    font-size: 2vh;
+}
+
+.stepContainer p {
+    font-size: 2vh;
+}
+
+@media (max-width: 800px) {
+    .stepsRow {
+        display: flex;
+        align-items: flex-start;
+        align-content: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .stepContainer {
+        width: 50%;
+        text-align: center;
+    }
+
+
+    .stepContainer h1 {
+        font-size: 7vh;
+        text-decoration: underline #47e4c2;
+        margin: 0;
+    }
+
+    .stepContainer h4 {
+        font-size: 3vh;
+    }
+
+    .stepContainer p {
+        font-size: 3vh;
+    }
+}
+
+@media (min-width: 2560px) {
+    .howItWorksContent h2 {
+        color: #2f3237;
+        font-family: "Lato";
+    
+        margin: 0 auto;
+        width: fit-content;
+        font-size: 5vh;
+        font-weight: lighter;
+        padding: 25px;
+    }
+    
+    .stepContainer h1 {
+        font-size: 7vh;
+        text-decoration: underline #47e4c2;
+        margin: 0;
+    }
+
+    .stepContainer h4 {
+        font-size: 3vh;
+    }
+
+    .stepContainer p {
+        font-size: 3vh;
+    }
 }

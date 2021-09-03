@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
 }
 
 .getStartedContent {
@@ -14,28 +14,59 @@
     font-family: "Lato";
     font-weight: lighter;
 
-    padding-top: 10%
+    padding-top: 30%;
 }
 
 .getStartedContent h3 {
     font-weight: 200;
-    font-size: 90%;
+    font-size: 6vh;
     padding-top: 10px;
 }
 
 .getStartedContent h2 {
     font-weight: 100;
-    font-size: xx-large;
+    font-size: 7vh;
     margin-top: 0;
+}
+
+.getStartedContent p {
+    font-size: 3vh;
 }
 
 #btnGetStarted {
     background-color: #47e4c2;
     color: #2f3237;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
     border: 0;
     padding: 5px 20px;
+
+    height: 7vh;
+    font-size: 2vh;
+    width: 25vh;
+}
+
+@media (min-width: 1440px) {
+    .getStartedContent {
+        color:white;
+    
+        font-family: "Lato";
+        font-weight: lighter;
+    
+        padding-top: 20%;
+    }
+}
+
+@media (min-width: 2560px) {
+    #getStartedMain {
+        background-image: url("../assets/img/photo-couch_2x.jpg");
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 150vh;
+    }
 }

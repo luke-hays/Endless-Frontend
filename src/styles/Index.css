@@ -15,4 +15,5 @@ h3 {
 .innerContent {
     margin: 0 auto;
     width: 80%;
+    position: relative;
 }
